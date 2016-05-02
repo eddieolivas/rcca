@@ -7,7 +7,7 @@
 <div id="section-2">
 	<div class="row">
 		<div class="section-2-baby-left col-lg-4 col-md-12 text-center">
-			<img src="/kfg/wp-content/themes/kfs/dist/images/section-2-baby.jpg" />
+			<img src="/kfs/wp-content/themes/kfs/dist/images/section-2-baby.jpg" />
 		</div>
 		<div class="section-2-content-right col-lg-8">
 			<div>
@@ -26,10 +26,10 @@
 
 			<p>As pioneers of fertility care, we have earned our reputation as one of the best fertility centers in the nation. Our dedication to providing personal, customized care to every person we see and treat means that we’re willing to dedicate the time, energy and resources necessary to give you the family you’ve always wanted… and we’ve had great results.
 			</p>
-			<button class="btn btn-secondary">Learn More About Our Success Rates</button>
+			<a href="?page_id=954"><button class="btn btn-secondary">Learn More About Our Success Rates</button></a>
 		</div>
 		<div class="section-3-right col-lg-4 col-md-12 text-center">
-			<img src="/kfg/wp-content/themes/kfs/dist/images/section-3-baby.jpg" />
+			<img src="/kfs/wp-content/themes/kfs/dist/images/section-3-baby.jpg" />
 		</div>
 	</div>
 </div>
@@ -37,7 +37,7 @@
 <div id="section-4">
 	<div class="container">	
 		<div class="col-lg-5 col-md-12 text-center">
-			<img src="/kfg/wp-content/themes/kfs/dist/images/section-4-doctors.jpg" />
+			<img src="/kfs/wp-content/themes/kfs/dist/images/section-4-doctors.jpg" />
 			<p class="section-4-img-caption">Dr. Kofinas and his team.</p>
 		</div>
 		<div class="col-lg-7 gerd-desc">
@@ -45,7 +45,7 @@
 			<p>George Kofinas, MD, FACOG, our distinguished founder and medical director, and his team of personally trained specialists will uncover the root of your infertility and recommend a treatment plan customized to your individual needs. This thorough approach is our key to successfully giving you the joy of parenthood.</p>
 
 			<p>New York Magazine has selected Dr. Kofinas as one of the tri-state area’s “Best Doctors” for all 18 years that the magazine has made this selection. Also, he currently serves as the chief of reproductive endocrinology and infertility at New York Methodist Hospital in Brooklyn, NY. By choosing Kofinas Fertility Group, you can expect to be treated by caring, renowned fertility experts with the skill to give you your best chance at a viable pregnancy and a healthy child.</p>
-			<a href="?page_id=63"><button class="btn btn-primary">Learn More About Dr. Kofinas and His Team</button></a>
+			<a href="?page_id=956"><button class="btn btn-primary">Learn More About Dr. Kofinas and His Team</button></a>
 		</div>
 	</div>
 </div>
@@ -60,11 +60,11 @@
 
 			<p>All of our physicians and technicians are highly trained, and excellent surgical skill is one of the primary traits we look for in our doctors, as half of fertility cases require surgery — a fact you won’t hear from many other fertility specialists.</p>
 			<div class="section-5-buttons">
-				<button class="btn btn-secondary">Fertility Assessment</button>  <button class="btn btn-secondary">Fertility Therapies</button>
+				<a href="?page_id=939"><button class="btn btn-secondary">Fertility Assessment</button></a>  <a href="?page_id=941"><button class="btn btn-secondary">Fertility Therapies</button></a>
 			</div>
 		</div>
 		<div class="section-5-right col-lg-4 col-md-12 text-center">
-			<img src="/kfg/wp-content/themes/kfs/dist/images/section-5-baby.jpg" />
+			<img src="/kfs/wp-content/themes/kfs/dist/images/section-5-baby.jpg" />
 		</div>
 	</div>
 </div>
@@ -78,14 +78,14 @@
 		</div>
 		<div class="col-lg-6 col-md-12 text-center section-6-right">
 			<div class="section-6-item item-1">
-				<img src="/kfg/wp-content/themes/kfs/dist/images/section-6-calendar.png" /><br>
-				<a href="?page_id=53"><button class="btn btn-primary">
+				<img src="/kfs/wp-content/themes/kfs/dist/images/section-6-calendar.png" /><br>
+				<a href="?page_id=73"><button class="btn btn-primary">
 					Request an Appointment
 				</button></a>
 			</div>
 			<div class="section-6-item item-2">
-				<img src="/kfg/wp-content/themes/kfs/dist/images/section-6-document.png" /><br>
-				<a href="?page_id=55"><button class="btn btn-primary">
+				<img src="/kfs/wp-content/themes/kfs/dist/images/section-6-document.png" /><br>
+				<a href="?page_id=993"><button class="btn btn-primary">
 					Patient Forms
 				</button></a>
 			</div>
@@ -96,14 +96,14 @@
 <div id="section-7">
 	<div class="row">
 		<div class="section-7-left col-lg-5 col-md-12 text-center">
-			<img src="/kfg/wp-content/themes/kfs/dist/images/section-7-baby.jpg" />
+			<img src="/kfs/wp-content/themes/kfs/dist/images/section-7-baby.jpg" />
 		</div>
 		<div class="section-7-right col-lg-7 col-md-12">
 			<h2>Making fertility care affordable is one of our greatest responsibilities.</h2>
 			<p>Insurance coverage for infertility is often more complicated than other medical treatments, and can vary quite a bit between different plans. For example, sometimes insurance covers infertility testing, but not treatment. At Kofinas Fertility Group, we do everything we can to keep finances from preventing you from having the child of your dreams, and we are happy to file your insurance claim for you.</p>
 
 			<p>To give you more financial reassurance, we offer a 100% Insured Success IVF program that gives you three IVF cycles for a set price. And if you fail to achieve a viable 14-week pregnancy after three cycles under this plan, your money will be returned to you in full. Additionally, we offer a number of discount plans for IVF and affordable rates for our many other assessments and therapies.</p>
-			<button class="btn btn-secondary">Learn More About Pricing, Insurance and Payment Plans</button>
+			<a href="?page_id=983"><button class="btn btn-secondary">Learn More About Pricing, Insurance and Payment Plans</button></a>
 		</div>
 	</div>
 </div>

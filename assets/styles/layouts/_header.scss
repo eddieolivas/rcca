@@ -40,7 +40,7 @@ header.banner {
 
 				.search-submit {
 				    color: #fff!important;
-				    background: url(/kfg/wp-content/themes/kfs/dist/images/search.jpg) no-repeat;
+				    background: url(/kfs/wp-content/themes/kfs/dist/images/search.jpg) no-repeat;
 				    border: none!important;
 				    float: right;
 				    height: 17px;
@@ -87,18 +87,45 @@ header.banner {
 				padding: 0 0 5px 0;
     			position: absolute;
     			z-index:999;
-   				top: 66px;
+   				top: 42px;
    				li {
+   					border-bottom: 1px solid $main_blue;
    					float: none;
    					list-style: none;
    					padding: 0;
    					width: 315px;
+   					ul {
+						background: $light_blue;
+						display: none; 
+						padding: 0 0 5px 0;
+		    			position: absolute;
+		    			z-index:999;
+		   				top: 126px;
+		   				left: 30px;
+		   				li {
+		   					border-bottom: 1px solid $main_blue;
+		   					float: none;
+		   					list-style: none;
+		   					padding: 0;
+		   					width: 315px;
+		   				}
+		   			}
+   					&:last-child {
+   						border-bottom: none;
+   					}
    					a {
+   						color: #fff;
    						display: block;
-   						font-size: 1.4em;
+   						font-size: 18px;
    						font-weight: normal;
    						text-transform: none;
    						width: 100%;
+   						&:hover {
+   							color: #000;
+   						}
+   					}
+   					&:hover > ul {
+   						display: block;
    					}
    				}
 			}
@@ -140,7 +167,7 @@ header.banner {
 
 @media (max-width: 1260px) and (min-width: 768px) {
 	.nav-primary {
-		#menu-top-navigation > li {
+		#menu-bottom-navigation > li {
 			border-left: none!important;
 			&:last-child {
 				border: none!important;

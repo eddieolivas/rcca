@@ -84,7 +84,7 @@
 }
 
 #section-4 {
-    background: url(/kfg/wp-content/themes/kfs/dist/images/section-4-bg.jpg) no-repeat fixed 50%/cover;
+    background: url(/kfs/wp-content/themes/kfs/dist/images/section-4-bg.jpg) no-repeat fixed 50%/cover;
     color: #fff;
     padding: 7em 0;
     .container {
@@ -240,7 +240,7 @@
 }
 
 #section-8 {
-	background: url(/kfg/wp-content/themes/kfs/dist/images/section-8-bg.jpg) no-repeat fixed 50%/cover;
+	background: url(/kfs/wp-content/themes/kfs/dist/images/section-8-bg.jpg) no-repeat fixed 50%/cover;
 	color: #fff;
 	font-family: $bree;
 	text-align: center;
@@ -470,7 +470,7 @@
 	}
 	input[type="text"], textarea, input.datepicker {
 		background: #fff;
-		border: 2px solid $dark_blue;
+		border: 2px solid $main_blue;
 		max-width: 460px;
 	}
 
@@ -486,22 +486,22 @@
 
 	input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 	   color: $dark_blue;
-	   font-family: $adobe_caslon;
+	   font-family: $lft-etica;
 	}
 
 	input[type="text"]:-moz-placeholder, textarea:-moz-placeholder { /* Firefox 18- */
 	   color: $dark_blue;  
-	   font-family: $adobe_caslon;
+	   font-family: $lft-etica;
 	}
 
 	input[type="text"]::-moz-placeholder, textarea::-moz-placeholder {  /* Firefox 19+ */
 	   color: $dark_blue;  
-	   font-family: $adobe_caslon;
+	   font-family: $lft-etica;
 	}
 
 	input[type="text"]:-ms-input-placeholder, textarea:-ms-input-placeholder {  
 	   color: $dark_blue; 
-	   font-family: $adobe_caslon; 
+	   font-family: $lft-etica; 
 	}
 
 	.gform_footer.top_label {
@@ -512,7 +512,7 @@
 		background: #fff;
 		border: 2px solid $main_red;
 		color: $main_red;
-		font-family: $franklin_gothic;
+		font-family: $bree;
 		font-size: 1.4em;
 		font-weight: 500;
 		margin: auto;
@@ -527,10 +527,14 @@
 	}
 }
 .contact-home-note {
-	font-family: $adobe_caslon;
+	font-family: $lft-etica;
 	font-size: 1.4em;
 	font-style: italic;
 	margin-top: 0;
+}
+
+.contact-us-location {
+	text-align: center;
 }
 
 /* Request an appt page form style ------------------------------*/
@@ -592,22 +596,22 @@
 
 	input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 	   color: $dark_blue;
-	   font-family: $adobe_caslon;
+	   font-family: $lft-etica;
 	}
 
 	input[type="text"]:-moz-placeholder, textarea:-moz-placeholder { /* Firefox 18- */
 	   color: $dark_blue;  
-	   font-family: $adobe_caslon;
+	   font-family: $lft-etica;
 	}
 
 	input[type="text"]::-moz-placeholder, textarea::-moz-placeholder {  /* Firefox 19+ */
 	   color: $dark_blue;  
-	   font-family: $adobe_caslon;
+	   font-family: $lft-etica;
 	}
 
 	input[type="text"]:-ms-input-placeholder, textarea:-ms-input-placeholder {  
 	   color: $dark_blue; 
-	   font-family: $adobe_caslon; 
+	   font-family: $lft-etica; 
 	}
 
 	.gform_footer.top_label {
@@ -618,7 +622,7 @@
 		background: #fff;
 		border: 2px solid $main_red;
 		color: $main_red;
-		font-family: $franklin_gothic;
+		font-family: $bree;
 		font-size: 1.4em;
 		font-weight: 500;
 		margin: auto;
@@ -633,7 +637,7 @@
 	}
 }
 .contact-home-note {
-	font-family: $adobe_caslon;
+	font-family: $lft-etica;
 	font-size: 1.4em;
 	font-style: italic;
 	margin-top: 0;
@@ -780,6 +784,9 @@
 				}
 			}
 		}
+	}
+	.contact-us-location {
+		margin-bottom: 35px;
 	}
 }
 
