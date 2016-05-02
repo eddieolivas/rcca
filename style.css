@@ -10,3 +10,8 @@ Text Domain:        sage
 License:            MIT License
 License URI:        http://opensource.org/licenses/MIT
 */
+
+h1 {
+	color: #777;
+	font-size: 50px;
+}

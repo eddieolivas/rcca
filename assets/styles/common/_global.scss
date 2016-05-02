@@ -1,1 +1,99 @@
+/* Colors ****/
 
+$blue_gray: #c7c7d5;
+$dark_blue: #00023f;
+
+
+/* Fonts ****/
+
+$franklin_gothic: franklin-gothic-urw-cond, sans-serif;
+$adobe_caslon: adobe-caslon-pro,sans-serif;
+ 
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: $lft-etica;
+	font-size: 16px;
+}
+
+a {
+	color: $main_blue;
+	&:hover {
+		color: $dark_blue;
+		text-decoration: none;
+	}
+	&:visited {
+		color: $dark_blue;
+	}
+}
+
+h1 {
+	color: #000;
+	font-family: $bree;
+	font-size: 36px;
+}
+
+h2 {
+	color: #000;
+	font-family: $bree;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+h3 {
+	color: #000;
+	font-family: $bree;
+	font-size: 25px;
+}
+
+h4 {
+	font-family: $bree;
+	color: #000;
+	font-family: 22px;
+	font-weight: bold;
+}
+
+h5 {
+	font-family: $bree;
+	color: #000;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+h6 {
+	font-size: 18px;
+	font-weight: bold;
+	font-family: $bree;
+	color: #000;
+}
+
+img {
+	max-width: 100%;
+}
+
+hr {
+	border-top: 1px solid #555;
+}
+
+.accordion-section-content p {
+	font-size: 20px!important;
+}
+
+.main {
+	h1 {
+		margin-top: 0;
+	}
+	
+	p {
+		font-family: $lft-etica;
+		font-size: 18px;
+	}
+	ul, ol {
+		li {
+			font-size: 18px;
+		}
+	}
+}

@@ -1,0 +1,234 @@
+header.banner {
+	padding-bottom: 43px;
+	.container {
+		padding: 0;
+
+		.header-wrap {
+			padding: 1.8em 0;
+
+			.header-right {
+				color: $main_blue;
+				float: right;
+				font-family: $bree;
+				font-size: 26px;
+				font-style: normal;
+				margin-top: 10px;
+				text-align: right;
+				form.search-form {
+					position: relative;
+				    width: 100%;
+				    label {
+				    	max-width: 200px;
+				    	width: 100%;
+				    	.search-field {
+				    		width: 100%;
+				    	}
+				    }
+				}
+				
+				.search-field {
+					border: 1px solid #acacac;
+					border-radius: 0;
+
+					&:after {
+					    font-family: 'Glyphicons halflings';
+					    content: "\E003";
+					    display: inline-block;
+					    z-index: 999;
+					}
+				}
+
+				.search-submit {
+				    color: #fff!important;
+				    background: url(/kfg/wp-content/themes/kfs/dist/images/search.jpg) no-repeat;
+				    border: none!important;
+				    float: right;
+				    height: 17px;
+				    margin-top: 0;
+				    position: absolute;
+				    right: 0;
+				    top: 14px;
+				    width: 17px;
+				    text-indent: -999px;
+				}
+			}
+		}
+	}
+
+	.nav-primary {
+		background-color: rgba(255,255,255,0.5);
+		border-bottom: 1px solid $main_blue;
+		border-top: 1px solid $main_blue;
+		padding: 0 80px;
+		position: relative;
+		z-index: 999;
+		#nav-container {
+			max-width: 1170px;
+		}
+
+		.nav > li {
+			border-left: 1px solid $main_blue;
+			float: left;
+			a {
+				color: #000;
+				text-decoration: none;
+				padding: 8px 15px;
+				font-family: $bree;
+				font-size: 18px;
+				font-weight: 400;
+				font-style: normal;
+				&:hover {
+					background-color: #fff;
+				}
+			}
+			ul {
+				background: $main_blue;
+				display: none; 
+				padding: 0 0 5px 0;
+    			position: absolute;
+    			z-index:999;
+   				top: 66px;
+   				li {
+   					float: none;
+   					list-style: none;
+   					padding: 0;
+   					width: 315px;
+   					a {
+   						display: block;
+   						font-size: 1.4em;
+   						font-weight: normal;
+   						text-transform: none;
+   						width: 100%;
+   					}
+   				}
+			}
+			&:hover > ul {
+				display: block;
+			}
+			&:last-child {
+				border-right: 1px solid $main_blue;
+			}
+		}
+	}
+}
+
+.page-header {
+	margin-top: -86px;
+	padding: 0;
+	.container {
+		.page-title-container {
+			display: block;
+			margin-top: -7em;
+			position: relative;
+			z-index: 99;
+			font-family: $bree;
+			.page-title-wrap {
+				background-color: rgba(0, 2, 63, 0.5);
+				color: #fff;
+				display: inline-block;
+				padding: 0.5em 1em;
+				.page-title {
+					font-size: 30px;
+					margin: 0;
+					color: #fff;
+					
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 1260px) and (min-width: 768px) {
+	.nav-primary {
+		#menu-top-navigation > li {
+			border-left: none!important;
+			&:last-child {
+				border: none!important;
+			}
+		}
+	}
+}
+
+@media (max-width: 1260px) {
+	header + .wrap {
+		margin-top: -40px;
+	}
+}
+
+@media (max-width: 768px) {
+	header.banner {
+		.container {
+			.header-wrap {
+				text-align: center;
+				.header-logo {
+					float: none;
+					margin: auto;
+				}
+				.header-right {
+					float: none;
+					text-align: center;
+					form.search-form {
+						margin: auto;
+						max-width: 200px;
+					    width: 100%;
+					    label {
+					    	margin: auto;
+					    	.search-field {
+					    		width: 100%;
+					    	}
+					    }
+					}
+				}
+			}
+		}
+		.nav-primary {
+			.navbar-header {
+				button {
+					&:hover {
+						background-color: #fff;
+					}
+					&:hover .icon-bar {
+						background-color: $main_blue;
+					}
+					&:focus {
+						background-color: #fff;
+					}
+					&:focus .icon-bar {
+						background-color: $main_blue;
+					}
+					.icon-bar {
+						background-color: #fff;
+					}
+				}
+			}
+			background: $main_blue;
+			padding: 0.5em;
+			.navbar-collapse {
+				border: none;
+				.nav > li {
+					clear: both;
+					color: #fff;
+					border: 1px solid #fff;
+					border-bottom: none;
+					width: 100%;
+					a {
+						color: #fff;
+						&:hover {
+							color: $main_blue;
+						}
+					}
+					&:first-child {
+						border-bottom: none;
+					}
+					&:last-child {
+						border-bottom: 1px solid #fff;
+					}
+				}
+			}
+		}
+	}
+
+	header + .wrap {
+		margin-top: 0;
+	}
+}

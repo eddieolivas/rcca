@@ -1,0 +1,102 @@
+aside.sidebar {
+	padding: 2em;
+	#request-appt-side {
+		color: $light_blue;
+		font-family: $bree;
+		font-size: 1.7em;
+		font-weight: 400;
+		text-align: center;
+		font-style: italic;
+	}
+
+	/* Home page contact form style ------------------------------*/
+	#gform_wrapper_2 {
+		label {
+			display: none;
+		}
+		#field_2_5, #field_2_2, #field_2_3, #field_2_4, #field_2_6 {
+			width: 100%;
+			margin-bottom: 20px;
+			input {
+				padding-left: 0.25em;
+				max-height: 35px;
+				width: 100%!important;
+			}
+
+		}
+
+		#field_2_6 {
+			.ginput_container {
+				img {
+					float: right; 
+					display: block;
+					z-index: 999;
+					position: relative;
+					margin: -24px 10px 0 0;
+				}
+			}
+		}
+		input[type="text"], textarea, input.datepicker {
+			background: #fff;
+			border: 2px solid $main_blue;
+		}
+
+		textarea {
+			float: none;
+			position: relative;
+			padding-left: 0.45em;
+			width: 100%;
+		}
+
+		input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+		   color: #555;
+		   font-family: $bree;
+		}
+
+		input[type="text"]:-moz-placeholder, textarea:-moz-placeholder { /* Firefox 18- */
+		   color: #555;  
+		   font-family: $bree;
+		}
+
+		input[type="text"]::-moz-placeholder, textarea::-moz-placeholder {  /* Firefox 19+ */
+		   color: #555;  
+		   font-family: $bree;
+		}
+
+		input[type="text"]:-ms-input-placeholder, textarea:-ms-input-placeholder {  
+		   color: #555; 
+		   font-family: $bree; 
+		}
+
+		.gform_footer.top_label {
+			padding-top: 0;
+			margin-top: 0;
+		    text-align: center;
+		}
+
+		#gform_submit_button_2 {
+			background: #FFF;
+			border: 2px solid $main_red;
+			color: $main_red;
+			font-family: $bree;
+			font-size: 1.2em;
+			font-weight: 500;
+			margin: auto;
+			text-transform: uppercase;
+			padding: 5px 0;
+			max-width: 345px;
+			width: 100%;
+			&:hover {
+				background: $main_red;
+				color: #fff;
+			}
+		}
+	}
+
+	.contact-home-note {
+		font-family: $bree;
+		font-size: 1.4em;
+		font-style: italic;
+		margin-top: 35px;
+	}
+}
