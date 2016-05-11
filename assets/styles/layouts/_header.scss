@@ -1,18 +1,17 @@
 header.banner {
-	padding-bottom: 43px;
 	.container {
 		padding: 0;
 
 		.header-wrap {
-			padding: 1.8em 0;
+			padding: 1.5em 0;
 
 			.header-right {
-				color: $main_blue;
+				color: $main_purple;
 				float: right;
-				font-family: $bree;
+				font-family: $minion;
 				font-size: 26px;
-				font-style: normal;
-				margin-top: 10px;
+				font-style: italic;
+				margin-top: 40px;
 				text-align: right;
 				form.search-form {
 					position: relative;
@@ -40,7 +39,7 @@ header.banner {
 
 				.search-submit {
 				    color: #fff!important;
-				    background: url(/kfs/wp-content/themes/kfs/dist/images/search.jpg) no-repeat;
+				    background: url(/rcca/wp-content/themes/rcca/dist/images/search.jpg) no-repeat;
 				    border: none!important;
 				    float: right;
 				    height: 17px;
@@ -56,9 +55,7 @@ header.banner {
 	}
 
 	.nav-primary {
-		background-color: rgba(255,255,255,0.5);
-		border-bottom: 1px solid $main_blue;
-		border-top: 1px solid $main_blue;
+		background-color: $main_blue;
 		padding: 0 80px;
 		position: relative;
 		z-index: 999;
@@ -67,18 +64,18 @@ header.banner {
 		}
 
 		.nav > li {
-			border-left: 1px solid $main_blue;
 			float: left;
 			a {
-				color: #000;
+				color: #fff;
 				text-decoration: none;
-				padding: 8px 15px;
-				font-family: $bree;
+				padding: 13px 15px;
+				font-family: $adobe_caslon;
 				font-size: 18px;
 				font-weight: 400;
 				font-style: normal;
+				text-transform: uppercase;
 				&:hover {
-					background-color: #fff;
+					background-color: $light_blue;
 				}
 			}
 			ul {
@@ -140,7 +137,6 @@ header.banner {
 }
 
 .page-header {
-	margin-top: -86px;
 	padding: 0;
 	.container {
 		.page-title-container {

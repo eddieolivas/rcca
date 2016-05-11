@@ -22,6 +22,6 @@
     }
   },
   "config": {
-    "devUrl": "http://localhost:/kfg"
+    "devUrl": "http://localhost/rcca"
   }
 }

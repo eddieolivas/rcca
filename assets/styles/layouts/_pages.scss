@@ -7,9 +7,19 @@
 }
 
 #rev_slider_1_1_wrapper {
-	margin-top: -86px!important;
     .tp-caption, #slide-1-layer-9 {
-    	font-family: $bree!important;	
+    	font-family: $minion!important;	
+    	font-weight: bold!important;
+    }
+
+    #slide-1-layer-5 {
+    	font-style: italic;
+    }
+
+    #slide-1-layer-15 {
+    	font-family: $adobe_caslon!important;
+    	line-height: 24px!important;
+    	font-weight: normal!important;
     }
 
     .tp-caption {
@@ -19,85 +29,153 @@
     #slide-1-layer-9 {
     	font-size: 22px;
     }
+
+    .rev-btn {
+    	font-family: $adobe_caslon!important;
+    	font-weight: normal!important;
+    }
     
 }
 
 #section-2 {
-	background: $main_blue;
-	color: #fff;
-	font-family: $lft-etica;
-	padding: 0;
-	.row {
-		margin: 0;
+	background: #fff;
+	color: $main_purple;
+	font-family: $adobe_caslon;
+	padding: 7em 0;
+	.container {
+		margin: auto;
 		position: relative;
 
-		.section-2-baby-left {
-			padding: 0;
-			img { 
-				width: 100%;
+		.section-2-left {
+			h2 {
+				color: $main_purple;
+				font-family: $minion;
+				font-size: 40px;
+				font-style: italic;
+				font-weight: 400;
+			}
+			p {
+				font-family: $adobe_caslon;
+				font-size: 22px;
+				font-weight: 300;
 			}
 		}
 
-		.section-2-content-right {
-			padding: 0 3%;
+		.section-2-right {
+			padding: 0;
 			line-height: 1.9em;
 			position: absolute;
 			top: 50%;
 			transform: translateY(-50%);
 			right: 0;
-			p {
-				font-size: 1.12em;
-				margin-bottom: 20px;
+			.right-inner {
+				background-color: #f3eaf1;
+				padding: 25px;
+				h3 {
+					color: $main_purple;
+					font-family: $adobe_caslon;
+					font-size: 22px;
+					font-weight: 300;
+					margin-top: 15px;
+					text-align: center;
+				}
+				ul {
+					li {
+						font-family: $minion;
+						font-size: 18px;
+						font-style: italic;
+						line-height: 22px;
+					}
+				}
+				ul.left-list {
+					float: left;
+				}
+				ul.right-list {
+					float: right;
+				}
+				&:after {
+					content: '';
+					display: block;
+					clear: both;
+				}
 			}
 		}
 	}
 }
 
 #section-3 {
-    background: #fff;
-    padding: 0;
-    .row {
-    	margin: 0;
+    background: #e5f2f6;
+    padding: 8em 0;
+    .container {
     	position: relative;
-    	.section-3-right {
+    	.section-3-left {
     		padding: 0;
 
-    			float: right;
+    			float: left;
     		img {
     			width: 100%;
     		}
     	}
-    	.section-3-left {
+    	.section-3-right {
     		font-size: 18px;
 			line-height: 28px;
-			padding: 0 6%;
+			padding: 0 3%;
 			position: absolute;
 			top: 50%;
 			transform: translateY(-50%);
-			left: 0;
+			right: 0;
 			h2 {
-    			color: $main_blue;
-    			font-family: $bree;
+    			color: $main_purple;
+    			font-family: $minion;
+    			font-style: italic;
+    			font-size: 36px;
+    		}
+    		p {
+    			font-weight: 300;
     		}
     	}
     }
 }
 
 #section-4 {
-    background: url(/kfs/wp-content/themes/kfs/dist/images/section-4-bg.jpg) no-repeat fixed 50%/cover;
-    color: #fff;
-    padding: 7em 0;
-    .container {
+    background: #fff;
+    color: #000;
+    padding: 0;
+    .row {
+    	margin: 0;
+    	position: relative;
+    	.section-4-left {
+    		font-family: $adobe_caslon;
+    		font-weight: 300;
+    		padding: 3% 0 0 3%;
+    		position: absolute;
+    		top: 50%;
+    		left: 0;
+    		-webkit-transform: translateY(-50%);
+    		transform: translateY(-50%);
+    		line-height: 28px;
+    		width: 68%;
+    		z-index: 1;
+    	}
+    	.section-4-right {
+    		float: right;
+    		padding: 0;
+    		img {
+    			width: 100%!important;
+    			max-width: none;
+    		}
+    	}
 		h2 {
-			color: #fff;
-			font-family: $bree;
+			color: $main-blue;
+			font-family: $minion;
+			font-style: italic;
 			font-size: 2.1em;
 			margin-top: 0;
 		}
 
 		p {
 			font-family: $lft-etica;
-			font-size: 1.2em;
+			font-size: 18px;
 			margin-top: 10px;
 		}		
 
@@ -112,8 +190,8 @@
 }
 
 #section-5 {
-	background: #fff;
-	padding: 0;
+	background: url(/rcca/wp-content/themes/rcca/dist/images/sec-5-bg.jpg) no-repeat center / cover;
+	padding: 6em 0;
 	.row {
     	margin: 0;
     	position: relative;
@@ -124,18 +202,17 @@
     			width: 100%;
     		}
     	}
-    	.section-5-left {
+    	.section-5-right {
     		font-size: 18px;
     		padding: 0 5%;
-    		position: absolute;
-    		top: 50%;
-    		transform: translateY(-50%);
 			line-height: 28px;
 			h2 {
-    			color: $main_blue;
-    			font-family: $bree;
+    			color: #000;
+    			font-family: $minion;
+    			font-style: italic;
     		}
     		p {
+    			font-weight: 300;
     			font-size: 18px;
     		}
     		.section-5-buttons {
@@ -151,13 +228,54 @@
 
 #section-6 {
 	background: $main_blue;
-	padding: 7em 0;
+	padding: 3em 0;
 	.container {
 	    margin: auto;
 	    padding: 1em 2em;
-	    h2 {
-	    	font-family: $bree;
+	    .col-lg-8 {
+	    	float: none;
+	    	margin: 0 auto 50px auto;
+	    }
+	    .col-lg-11 {
+	    	background: $main_purple;
 	    	color: #fff;
+	    	margin: auto;
+	    	float: none;
+	    	padding: 15px;
+	    	margin-bottom: 45px;
+	    	ul {
+	    		font-family: $minion;
+	    		font-size: 18px;
+	    		font-style: italic;
+	    		font-weight: 300;
+	    	}
+	    	ul.left-list {
+	    		float: left;
+	    		text-align: left;
+	    		width: 50%
+	    	}
+	    	ul.right-list {
+	    		float: right;
+	    		text-align: left;
+	    		width: 50%;
+	    	}
+	    	&:after {
+	    		content: '';
+	    		display: block;
+	    		clear: both;
+	    	}
+	    }
+	    h2 {
+	    	font-family: $minion;
+	    	font-size: 36px;
+	    	font-style: italic; 
+	    	color: #fff;
+	    }
+	    h3 {
+	    	font-family: $adobe_caslon;
+	    	font-size: 26px;
+	    	color: #fff;
+	    	font-weight: 300;
 	    }
 	    a {
 	    	text-decoration: none;
@@ -167,7 +285,8 @@
 		}
 	    p {
 	    	color: #fff;
-	    	font-family: $lft-etica;
+	    	font-weight: 300;
+	    	font-family: $adobe_caslon;
 	    }
 	    .section-6-item {
 	    	img {
@@ -190,61 +309,83 @@
 }
 
 #section-7 {
-	background: #fff;
-	color: #000;
-	padding: 0;
-	.row {
-		margin: 0;
-		position: relative;
-    	.section-7-left {
+	background: #f3eaf1;
+    padding: 8em 0;
+    .container {
+    	position: relative;
+    	.section-3-left {
     		padding: 0;
+
+    			float: left;
     		img {
     			width: 100%;
     		}
     	}
-    	.section-7-right {
+    	.section-3-right {
     		font-size: 18px;
-			padding: 0 8%;
+			line-height: 28px;
+			padding: 0 3%;
 			position: absolute;
 			top: 50%;
-			right: 0;
 			transform: translateY(-50%);
-			line-height: 28px;
+			right: 0;
 			h2 {
-    			color: $light_blue;
-    			font-family: $bree;
+    			color: $main_purple;
+    			font-family: $minion;
+    			font-style: italic;
+    			font-size: 36px;
     		}
     		p {
-    			font-size: 18px;
+    			font-weight: 300;
     		}
     	}
-		h2 {
-			color: $main_blue;
-			font-family: $bree;
-		}
-		a {s
-			&:hover {
-				text-decoration: none;
-			}
-		}
-		p {
-			font-size: 1.4em;
-			line-height: 1.4em;
-		}
-		.btn {
-			margin-top: 10px;
-			margin-bottom: 10px;
-		}
-	}
-	
+    }
 }
 
 #section-8 {
-	background: url(/kfs/wp-content/themes/kfs/dist/images/section-8-bg.jpg) no-repeat fixed 50%/cover;
-	color: #fff;
-	font-family: $bree;
-	text-align: center;
+	background: #fff;
+	color: #000;
+	font-family: $adobe_caslon;
 	padding: 8em 0;
+	.container {
+		.col-lg-7 {
+			div {
+				h2 {
+					color: $main-blue;
+					font-family: $minion;
+					font-style: italic;
+				}
+				p {
+					color: #000;
+					font-family: $adobe_caslon;
+					font-weight: 300;
+				}
+			}
+		}
+		.col-lg-5 {
+			p.sec-8-quote, .quote-author {
+				color: $main-purple;
+				font-size: 24px;
+				font-family: $minion;
+				font-style: italic;
+				padding-left: 100px;
+			}
+			p.sec-8-quote {
+				&:before {
+					content: '"';
+					color: #dfd0db;
+					clear: both;
+					display: block;
+					font-family: $adobe_caslon;
+					font-size: 350px;
+					font-style: none;
+				}
+			}
+			.quote-author {
+				float: right;
+			}
+		}
+	}
 	.section-8-heading {
 	    font-size: 2em;
 		font-weight: 500;

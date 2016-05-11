@@ -5,122 +5,145 @@
 	.footer-divider { display: none; }
 </style>
 <div id="section-2">
-	<div class="row">
-		<div class="section-2-baby-left col-lg-4 col-md-12 text-center">
-			<img src="/kfs/wp-content/themes/kfs/dist/images/section-2-baby.jpg" />
-		</div>
-		<div class="section-2-content-right col-lg-8">
+	<div class="container">
+		<div class="section-2-left col-lg-8">
 			<div>
-				<p>When you haven’t been able to have the child you’ve always wanted, even after seeking help, it can be emotionally trying. We at Kofinas Fertility Group truly understand your hardship, and we’re here to provide you with the comprehensive, compassionate care you need to finally have the family of your dreams.</p>
-
-				<p>Our fertility specialists are distinguished by their extensive experience, emotional receptivity, and specialized surgical skill. We’re committed to taking every necessary approach, and we offer many procedures that you won’t find at other fertility clinics, including surgery. Despite what you may have been told, surgery is often an important aspect of fertility care. And yet, many doctors are unwilling (or lack the capabilities) to operate, even when it will offer the best chances for a successful pregnancy. At Kofinas Fertility Group, we do it all, because that’s what it takes to give you a healthy, happy child at a rate you can afford.</p>
+				<h2>A cancer diagnosis changes everything.</h2>
+				<p>At the Central Jersey Division of Regional Cancer Care Associates, we understand this. That’s why our highly trained, experienced and compassionate cancer doctors — along with our physician assistants, nurse practitioners, nurses, pharmacist and other team members — are dedicated to your best interests and optimal health. It’s also why we provide the highest standard of cancer and hematology care and strive to deliver the support, education and individualized attention you need.</p>
+			</div>
+		</div>
+		<div class="section-2-right col-lg-4 col-md-12">
+			<div class="right-inner">
+				<h3>Compassionate, results-focused care &amp; support for...</h3>
+				<ul class="left-list">
+					<li>Breast cancer</li>
+					<li>Lung cancer</li>
+					<li>Colon cancer</li>
+					<li>Prostate cancer</li>
+					<li>Myeloma</li>
+					<li>Lymphoma</li>
+					<li>Leukemia</li>
+					<li>Melanoma</li>
+				</ul>
+				<ul class="right-list">
+					<li>Pancreatic cancer</li>
+					<li>Esophageal cancer</li>
+					<li>Stomach cancer</li>
+					<li>Ovarian cancer</li>
+					<li>Head &amp; neck cancer</li>
+					<li>Liver cancer</li>
+					<li>Brain tumors</li>
+					<li>Blood disorders</li>
+				</ul>
 			</div>
 		</div>
 	</div>
 </div>
 <div id="section-3">
-	<div class="row">
-		<div class="section-3-left col-lg-8 col-md-12">
-			<h2>Chosen for many reasons, but especially for our excellent outcomes.</h2>
-			<p>Due to varied patient expectations, assorted definitions of success and differing program acceptance criteria between different fertility clinics, success rates remain a highly controversial subject. At Kofinas Fertility Group, we have a singular focus — giving you a healthy baby — and this focus forms the basis for how we evaluate our success.</p>
-
-			<p>As pioneers of fertility care, we have earned our reputation as one of the best fertility centers in the nation. Our dedication to providing personal, customized care to every person we see and treat means that we’re willing to dedicate the time, energy and resources necessary to give you the family you’ve always wanted… and we’ve had great results.
-			</p>
-			<a href="?page_id=954"><button class="btn btn-secondary">Learn More About Our Success Rates</button></a>
+	<div class="container">	
+		<div class="col-lg-5 col-md-12 text-center section-3-left">
+			<img src="/rcca/wp-content/themes/rcca/dist/images/section-3-docs.jpg" />
 		</div>
-		<div class="section-3-right col-lg-4 col-md-12 text-center">
-			<img src="/kfs/wp-content/themes/kfs/dist/images/section-3-baby.jpg" />
+		<div class="col-lg-7 section-3-right">
+			<h2>Highly capable doctors at the forefront of cancer treatment.</h2>
+			<p>To give you the best possible chances against cancer, we’ve built a large team of cancer specialists who combine a shared commitment to excellence with their diverse backgrounds, experiences and skillsets. Our oncologists trained at some of the world’s most distinguished medical institutions, are well known and highly capable, and are acknowledged for their expertise and leadership as professors, clinicians and researchers.</p>
+
+			<p>Experienced, compassionate and dedicated to the communities they serve, our cancer physicians are respected by their peers and trusted by doctors and patients alike for top-quality, state-of-the-art oncology and hematology care.</p>
+			<a href="?page_id=956"><button class="btn btn-primary">Learn More About Our Experienced Cancer Specialists</button></a>
 		</div>
 	</div>
 </div>
 
 <div id="section-4">
-	<div class="container">	
-		<div class="col-lg-5 col-md-12 text-center">
-			<img src="/kfs/wp-content/themes/kfs/dist/images/section-4-doctors.jpg" />
-			<p class="section-4-img-caption">Dr. Kofinas and his team.</p>
-		</div>
-		<div class="col-lg-7 gerd-desc">
-			<h2>Dr. Kofinas and his team offer you dedication and experience.</h2>
-			<p>George Kofinas, MD, FACOG, our distinguished founder and medical director, and his team of personally trained specialists will uncover the root of your infertility and recommend a treatment plan customized to your individual needs. This thorough approach is our key to successfully giving you the joy of parenthood.</p>
+	<div class="row">
+		<div class="section-4-left col-lg-7 col-md-12">
+			<h2>Leading the way in individualized and effective cancer care for Central New Jersey.</h2>
+			<p>At RCCA-CJD, our goal is simple: to direct your life in a healthy, positive direction so you can prevail against cancer or blood-related diseases. With that in mind, we strive to be leaders in providing the Central Jersey community we live and work in with advanced, appropriate and effective care.</p>
 
-			<p>New York Magazine has selected Dr. Kofinas as one of the tri-state area’s “Best Doctors” for all 18 years that the magazine has made this selection. Also, he currently serves as the chief of reproductive endocrinology and infertility at New York Methodist Hospital in Brooklyn, NY. By choosing Kofinas Fertility Group, you can expect to be treated by caring, renowned fertility experts with the skill to give you your best chance at a viable pregnancy and a healthy child.</p>
-			<a href="?page_id=956"><button class="btn btn-primary">Learn More About Dr. Kofinas and His Team</button></a>
+			<p>To help you be your healthiest and have the highest quality of life possible, we embrace and use the best of modern oncologic medicine. We're also certified by the Quality Oncology Practice Initiative (QOPI®) as providing the highest standard of cancer care in both quality and safety. At the same time, we lead with our hearts, dedicating ourselves to ensuring you have access to top-quality, comprehensive, state-of-the-art treatments in an environment characterized by compassion. We take a “whole-life” approach, treating you — not just your disease — and going after your cancer or blood disorder in an individualized, determined way.</p>
+			<div class="section-4-buttons">
+				<a href="?page_id=939"><button class="btn btn-primary">Learn More About RCCA-CJD</button></a>
+			</div>
+		</div>
+		<div class="section-4-right col-lg-5 col-md-12 text-center">
+			<img src="/rcca/wp-content/themes/rcca/dist/images/sec-4-pic.jpg" />
 		</div>
 	</div>
 </div>
 
 <div id="section-5">
 	<div class="row">
-		<div class="section-5-left col-lg-8 col-md-12">
-			<h2>Leading-edge capabilities and advanced technology define Kofinas Fertility Group.</h2>
-			<p>When it comes to the technology required to properly assess your fertility challenges and take the necessary steps to fix them, Kofinas Fertility Group has no limits. If a new piece of equipment is released and the science considers it beneficial to the process of giving our patients a family, then we will spare no resource in order to acquire it.</p>
-
-			<p>Additionally, we incorporate the very latest techniques into our practice. With his vast experience and expertise, Dr. Kofinas can determine the effectiveness of new and experimental techniques and begin using them immediately, giving his patients the best chance at experiencing parenthood. In fact, Kofinas Fertility Group has a number of “firsts” in the Brooklyn area, meaning we have been successfully performing certain procedures longer than most other fertility doctors, and we uses that experience to give you a loving child.</p>
-
-			<p>All of our physicians and technicians are highly trained, and excellent surgical skill is one of the primary traits we look for in our doctors, as half of fertility cases require surgery — a fact you won’t hear from many other fertility specialists.</p>
+		<div class="section-5-right col-lg-8 col-md-12">
+			<h2>Dedicated to the community — and to easy access.</h2>
+			<p>RCCA’s Central Jersey Division is committed to ensuring that you have ready access to top-quality, comprehensive and leading-edge cancer care. With 4 convenient locations in Central New Jersey and hospital privileges to multiple local hospitals, we’re the community’s choice for local convenience and treatment excellence delivered by providers from the community. Plus, we make every effort to accommodate you as soon as possible, sometimes even the same day. We have a physician on-call after hours and we help you explore coverage and payment options. We help you explore coverage and payment options and advocate for you financially, working with groups and foundations to help lessen the financial impact of cancer and cancer treatment. We also offer secure, convenient access to your medical records.</p>
 			<div class="section-5-buttons">
-				<a href="?page_id=939"><button class="btn btn-secondary">Fertility Assessment</button></a>  <a href="?page_id=941"><button class="btn btn-secondary">Fertility Therapies</button></a>
+				<a href="?page_id=939"><button class="btn btn-primary">Find out how we make cancer care more accessible</button></a>
 			</div>
-		</div>
-		<div class="section-5-right col-lg-4 col-md-12 text-center">
-			<img src="/kfs/wp-content/themes/kfs/dist/images/section-5-baby.jpg" />
 		</div>
 	</div>
 </div>
 
 <div id="section-6">
-	<div class="container section-6-content">
-		<div class="col-lg-6 col-md-12">
-			<h2>Focused on the success and convenience of our patients.</h2>
-			<p>Making an appointment with Kofinas Fertility Group is your first step toward starting a happy family. We’ve worked to maximize your convenience by allowing you to request an appointment and fill out your new patient forms online. If you have any questions or would prefer to make an appointment via phone, please don’t hesitate to call us at (718) 340-3611.
+	<div class="container">
+		<div class="col-lg-8 col-md-12">
+			<h2>Complete oncology and hematology services and care coordination.</h2>
+			<p>For any cancer-related need, Regional Cancer Care Associates’ Central Jersey Division provides complete services, care, coordination and support. We treat every type of cancer (and blood disorder) using the highest-quality and most advanced science-based treatments... which we personalize to your unique needs. We also take responsibility for ensuring you get whatever care will be most appropriate and effective, actively coordinating with other providers, staying involved and always doing what is best for you. 
 			</p>
 		</div>
-		<div class="col-lg-6 col-md-12 text-center section-6-right">
-			<div class="section-6-item item-1">
-				<img src="/kfs/wp-content/themes/kfs/dist/images/section-6-calendar.png" /><br>
-				<a href="?page_id=73"><button class="btn btn-primary">
-					Request an Appointment
-				</button></a>
-			</div>
-			<div class="section-6-item item-2">
-				<img src="/kfs/wp-content/themes/kfs/dist/images/section-6-document.png" /><br>
-				<a href="?page_id=993"><button class="btn btn-primary">
-					Patient Forms
-				</button></a>
-			</div>
+		<div class="col-lg-11 col-md-12 text-center section-6-right">
+			<h3>Comprehensive, leading-edge cancer care &amp; hermatology...</h3>
+			<ul class="left-list">
+					<li>Cancer diagnosis, staging, treatment &amp care coordination</li>
+					<li>Genetic counseling</li>
+					<li>Chemotherapy, including targeted therapies</li>
+					<li>Immunotherapy</li>
+					<li>Biological &amp; hormone therapy</li>
+					<li>Biologics infusion services</li>
+					<li>Coordination of radiation therapy, surgical treatmen &amp; supportive care</li>
+				</ul>
+				<ul class="right-list">
+					<li>Pain management &amp; palliative care</li>
+					<li>Research &amp; clinical trials</li>
+					<li>On-site oncology pharmacy services &amp; expertise</li>
+					<li>Diagnosis, treatment &amp; management of blood-related disorders</li>
+					<li>Patient education, counseling &amp; support</li>
+					<li>Financial advocacy to help reduce economic burden/impact</li>
+					<li>Hospice care</li>
+				</ul>
+		</div>
+		<div class="text-center">
+			<button class="btn btn-primary">Discover more about RCCA-CJD'S comprehensive services</button>
 		</div>
 	</div>
 </div>
 
 <div id="section-7">
-	<div class="row">
-		<div class="section-7-left col-lg-5 col-md-12 text-center">
-			<img src="/kfs/wp-content/themes/kfs/dist/images/section-7-baby.jpg" />
+	<div class="container">	
+		<div class="col-lg-5 col-md-12 text-center section-3-left">
+			<img src="/rcca/wp-content/themes/rcca/dist/images/sec-7-doc.jpg" />
 		</div>
-		<div class="section-7-right col-lg-7 col-md-12">
-			<h2>Making fertility care affordable is one of our greatest responsibilities.</h2>
-			<p>Insurance coverage for infertility is often more complicated than other medical treatments, and can vary quite a bit between different plans. For example, sometimes insurance covers infertility testing, but not treatment. At Kofinas Fertility Group, we do everything we can to keep finances from preventing you from having the child of your dreams, and we are happy to file your insurance claim for you.</p>
-
-			<p>To give you more financial reassurance, we offer a 100% Insured Success IVF program that gives you three IVF cycles for a set price. And if you fail to achieve a viable 14-week pregnancy after three cycles under this plan, your money will be returned to you in full. Additionally, we offer a number of discount plans for IVF and affordable rates for our many other assessments and therapies.</p>
-			<a href="?page_id=983"><button class="btn btn-secondary">Learn More About Pricing, Insurance and Payment Plans</button></a>
+		<div class="col-lg-7 section-3-right">
+			<h2>Maximizing convenience, accuracy and safety with on-site pharmacy services.</h2>
+			<p>Many medications could be involved in your care, and they need to be exactly right to ensure your safety and maximize the effectiveness of your treatment. That’s why our experienced, highly credentialed oncology pharmacist reviews all treatment plans and oversees the administration of all medicines. It’s also why our pharmacy is involved in all aspects of our care, from protocols to patient counseling to clinical research. And it’s the reason — along with convenience — why we dispense medications right in our office pharmacies, which are staffed by caring, certified oncology-pharmacy technicians.</p>
+			<a href="?page_id=956"><button class="btn btn-primary">Learn More About Our In House Pharmacy</button></a>
 		</div>
 	</div>
 </div>
 
 <div id="section-8">
 	<div class="container">
-		<div class="section-8-heading">
-			To request an appointment<br />
-			CALL (718) 340-3611<br />
-			or<br />
-			Use our easy online contact form
-		</div>
-		<div class="home-contact-form">
-			<?php echo do_shortcode('[gravityform id="1" title="false" description="false"]'); ?>
-			<div class="contact-home-note">
-				*We'll contact you shortly to confirm an appointment time convenient to your schedule.
+		<div class="col-lg-7">
+			<div>
+				<h2>Providing an environment and experience marked by caring and support.</h2>
+				<p>At RCCA’s Central Jersey Division, we’re oriented around your needs. We work on your behalf, striving to develop the best individualized treatment for you, and going the extra mile to provide you with the best possible patient experience. Our doctors, physician assistants, nurse practitioners, nurses and staff treat you with honesty and compassion, giving you the guidance and support you need and helping you make informed decisions. As your neighbors here in Central Jersey, we’re committed to making a difference in your care and in your life. </p>
 			</div>
+		</div>
+		<div class="col-lg-5 col-md-12">
+			<p class="sec-8-quote">
+				To all of you beautiful people… thank you for all the comforting and caring treatment you have shown me and for getting me through all of this. You have helped me keep a positive attitude, and I thank you so very much.
+			</p>
+
+				<div class="quote-author">— Doris B.</div>
 		</div>
 	</div>
 </div>

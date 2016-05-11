@@ -1,10 +1,10 @@
 <header class="banner">
   <div class="container">
     <div class="header-wrap">
-      <a class="brand" href="<?= esc_url(home_url('/')); ?>"><img class="header-logo" width="325" src="/kfg/wp-content/themes/kfs/dist/images/kfs-logo.jpg" alt="<?php bloginfo('name'); ?>" /></a>
+      <a class="brand" href="<?= esc_url(home_url('/')); ?>"><img class="header-logo" width="325" src="/rcca/wp-content/themes/rcca/dist/images/rcca-logo.jpg" alt="<?php bloginfo('name'); ?>" /></a>
       <div class="header-right">
         To Request an Appointment,<br>
-        <strong>Call (718) 340-3611</strong><br>
+        Call 877-403-0077<br>
         <?php get_search_form(); ?>
       </div>
     </div>
