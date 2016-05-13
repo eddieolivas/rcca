@@ -32,6 +32,9 @@ use Roots\Sage\Wrapper;
             if(is_front_page() || is_home()) {
               $title = "Blog";
             }
+            elseif(is_search()) {
+              $title = "Search Results";
+            }
           ?>
           <div class="page-header">
             <img width="100%" src="<?php echo $thumb_url; ?>" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="meet-the-team" sizes="100vw, 1920px">

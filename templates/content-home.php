@@ -4,7 +4,7 @@
 <style>
 	.footer-divider { display: none; }
 </style>
-<div id="section-2">
+<section id="section-2">
 	<div class="container">
 		<div class="section-2-left col-lg-8">
 			<div>
@@ -38,8 +38,8 @@
 			</div>
 		</div>
 	</div>
-</div>
-<div id="section-3">
+</section>
+<section id="section-3">
 	<div class="container">	
 		<div class="col-lg-5 col-md-12 text-center section-3-left">
 			<img src="/rcca/wp-content/themes/rcca/dist/images/section-3-docs.jpg" />
@@ -52,9 +52,9 @@
 			<a href="?page_id=956"><button class="btn btn-primary">Learn More About Our Experienced Cancer Specialists</button></a>
 		</div>
 	</div>
-</div>
+</section>
 
-<div id="section-4">
+<section id="section-4">
 	<div class="row">
 		<div class="section-4-left col-lg-7 col-md-12">
 			<h2>Leading the way in individualized and effective cancer care for Central New Jersey.</h2>
@@ -69,9 +69,9 @@
 			<img src="/rcca/wp-content/themes/rcca/dist/images/sec-4-pic.jpg" />
 		</div>
 	</div>
-</div>
+</section>
 
-<div id="section-5">
+<section id="section-5">
 	<div class="row">
 		<div class="section-5-right col-lg-8 col-md-12">
 			<h2>Dedicated to the community — and to easy access.</h2>
@@ -81,9 +81,9 @@
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 
-<div id="section-6">
+<section id="section-6">
 	<div class="container">
 		<div class="col-lg-8 col-md-12">
 			<h2>Complete oncology and hematology services and care coordination.</h2>
@@ -115,9 +115,9 @@
 			<button class="btn btn-primary">Discover more about RCCA-CJD'S comprehensive services</button>
 		</div>
 	</div>
-</div>
+</section>
 
-<div id="section-7">
+<section id="section-7">
 	<div class="container">	
 		<div class="col-lg-5 col-md-12 text-center section-3-left">
 			<img src="/rcca/wp-content/themes/rcca/dist/images/sec-7-doc.jpg" />
@@ -128,14 +128,15 @@
 			<a href="?page_id=956"><button class="btn btn-primary">Learn More About Our In House Pharmacy</button></a>
 		</div>
 	</div>
-</div>
+</section>
 
-<div id="section-8">
+<section id="section-8">
 	<div class="container">
 		<div class="col-lg-7">
 			<div>
 				<h2>Providing an environment and experience marked by caring and support.</h2>
 				<p>At RCCA’s Central Jersey Division, we’re oriented around your needs. We work on your behalf, striving to develop the best individualized treatment for you, and going the extra mile to provide you with the best possible patient experience. Our doctors, physician assistants, nurse practitioners, nurses and staff treat you with honesty and compassion, giving you the guidance and support you need and helping you make informed decisions. As your neighbors here in Central Jersey, we’re committed to making a difference in your care and in your life. </p>
+				<button class="btn btn-primary">Read what patients say about their experience at RCCA-CJD</button>
 			</div>
 		</div>
 		<div class="col-lg-5 col-md-12">
@@ -146,54 +147,28 @@
 				<div class="quote-author">— Doris B.</div>
 		</div>
 	</div>
-</div>
+</section>
 
-<div id="section-9">
-	<script src="http://maps.google.com/maps/api/js?key=AIzaSyCUWDczY2oV2GlhRhxFzCizgJIbYQ_LaYc" yype="text/javascript"></script>
-	<div id="map" style="width: 100%; height: 400px; max-height: 555px;"></div>
-	<script type="text/javascript">
-		var locations = [
-		['506 6th Street Brooklyn, NY 11215, USA', 40.668014, -73.979006],
-		['4855 Hylan Blvd. Staten Island, NY 10312, USA', 40.527245, -74.168036],
-		['55 Central Park West New York, NY 10023, USA', 40.772493, -73.979089]
-		];
+<section id="section-9">
+	<div class="container">	
+		<div class="col-lg-5 col-md-12 text-center section-3-left">
+			<img src="/rcca/wp-content/themes/rcca/dist/images/sec-9-pic.jpg" />
+		</div>
+		<div class="col-lg-7 section-3-right">
+			<h2>Comprehensive hematology care from the leading edge of the discipline.</h2>
+			<p>Blood disorders can be scary. And whether malignant or not, they can affect many aspects of life. With experience, advanced training and board-certified knowledge and skill, RCCA-CJD’s oncology-hematology specialists provide complete hematology care from the forefront of the discipline. We even have QOPI® certification that attests to our adherence to the highest standards of quality and safety. Our doctors, physician assistants and nurse practitioners have extensive knowledge of blood and bone-marrow disorders, and they combine state-of-the-art diagnostics with comprehensive treatments to help you live a fulfilling, happy and productive life. </p>
+			<a href="?page_id=956"><button class="btn btn-primary">Find out more about our hematology care</button></a>
+		</div>
+	</div>
+</section>
 
-		var map = new google.maps.Map(document.getElementById('map'), {
-			zoom: 10,
-			center: new google.maps.LatLng(40.67, -73.97),
-			mapTypeId: google.maps.MapTypeId.ROADMAP
-		});
-		
-			
-		var infowindow = new google.maps.InfoWindow();
-
-		var marker, i;
-
-		for (i = 0; i < locations.length; i++) {  
-			marker = new google.maps.Marker({
-				position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-				map: map
-			});
-
-			google.maps.event.addListener(marker, 'click', (function(marker, i) {
-				return function() {
-					infowindow.setContent(locations[i][0]);
-					infowindow.open(map, marker);
-				}
-			})(marker, i));
-		}
-		jQuery(document).ready(function() {
-			if(jQuery(window).width() < 1024) {
-				map.setOptions({
-					scrollwheel: false,
-					draggable: false
-				});
-			}
-			else {
-				map.setOptions({
-					scrollwheel: false
-				});
-			}
-		});
-	</script>
-</div>
+<section id="section-10">
+	<div class="container">
+		<div class="home-contact-form">
+			<?php echo do_shortcode('[gravityform id="1" title="false" description="false"]'); ?>
+			<div class="contact-home-note">
+				*We'll contact you shortly to confirm an appointment time convenient to your schedule.
+			</div>
+		</div>
+	</div>
+</section>
