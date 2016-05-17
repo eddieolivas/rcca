@@ -1,8 +1,8 @@
 aside.sidebar {
 	padding: 2em;
 	#request-appt-side {
-		color: $light_blue;
-		font-family: $bree;
+		color: $main-blue;
+		font-family: $minion;
 		font-size: 1.7em;
 		font-weight: 400;
 		text-align: center;
@@ -50,22 +50,22 @@ aside.sidebar {
 
 		input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 		   color: #555;
-		   font-family: $bree;
+		   font-family: $adobe_caslon;
 		}
 
 		input[type="text"]:-moz-placeholder, textarea:-moz-placeholder { /* Firefox 18- */
 		   color: #555;  
-		   font-family: $bree;
+		   font-family: $adobe_caslon;
 		}
 
 		input[type="text"]::-moz-placeholder, textarea::-moz-placeholder {  /* Firefox 19+ */
 		   color: #555;  
-		   font-family: $bree;
+		   font-family: $adobe_caslon;
 		}
 
 		input[type="text"]:-ms-input-placeholder, textarea:-ms-input-placeholder {  
 		   color: #555; 
-		   font-family: $bree; 
+		   font-family: $adobe_caslon; 
 		}
 
 		.gform_footer.top_label {
@@ -76,9 +76,9 @@ aside.sidebar {
 
 		#gform_submit_button_2 {
 			background: #FFF;
-			border: 2px solid $main_red;
-			color: $main_red;
-			font-family: $bree;
+			border: 2px solid $main-purple;
+			color: $main-purple;
+			font-family: $adobe_caslon;
 			font-size: 1.2em;
 			font-weight: 500;
 			margin: auto;
@@ -87,14 +87,14 @@ aside.sidebar {
 			max-width: 345px;
 			width: 100%;
 			&:hover {
-				background: $main_red;
+				background: $main-purple;
 				color: #fff;
 			}
 		}
 	}
 
 	.contact-home-note {
-		font-family: $bree;
+		font-family: $adobe_caslon;
 		font-size: 1.4em;
 		font-style: italic;
 		margin-top: 35px;

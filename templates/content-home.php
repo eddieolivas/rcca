@@ -6,7 +6,7 @@
 </style>
 <section id="section-2">
 	<div class="container">
-		<div class="section-2-left col-lg-8">
+		<div class="section-2-left col-lg-8 col-md-12">
 			<div>
 				<h2>A cancer diagnosis changes everything.</h2>
 				<p>At the Central Jersey Division of Regional Cancer Care Associates, we understand this. That’s why our highly trained, experienced and compassionate cancer doctors — along with our physician assistants, nurse practitioners, nurses, pharmacist and other team members — are dedicated to your best interests and optimal health. It’s also why we provide the highest standard of cancer and hematology care and strive to deliver the support, education and individualized attention you need.</p>
@@ -44,7 +44,7 @@
 		<div class="col-lg-5 col-md-12 text-center section-3-left">
 			<img src="/rcca/wp-content/themes/rcca/dist/images/section-3-docs.jpg" />
 		</div>
-		<div class="col-lg-7 section-3-right">
+		<div class="col-lg-7 col-md-12 section-3-right">
 			<h2>Highly capable doctors at the forefront of cancer treatment.</h2>
 			<p>To give you the best possible chances against cancer, we’ve built a large team of cancer specialists who combine a shared commitment to excellence with their diverse backgrounds, experiences and skillsets. Our oncologists trained at some of the world’s most distinguished medical institutions, are well known and highly capable, and are acknowledged for their expertise and leadership as professors, clinicians and researchers.</p>
 

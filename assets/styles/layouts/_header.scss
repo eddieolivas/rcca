@@ -77,6 +77,9 @@ header.banner {
 				&:hover {
 					background-color: $light_blue;
 				}
+				&:focus {
+					background-color: $light_blue;
+				}
 			}
 			ul {
 				background: $main_blue;
@@ -145,16 +148,15 @@ header.banner {
 			margin-top: -7em;
 			position: relative;
 			z-index: 99;
-			font-family: $bree;
+			font-family: $minion;
 			.page-title-wrap {
-				background-color: rgba(0, 2, 63, 0.5);
-				color: #fff;
 				display: inline-block;
 				padding: 0.5em 1em;
 				.page-title {
-					font-size: 30px;
+					font-size: 36px;
+					font-style: italic;
 					margin: 0;
-					color: #fff;
+					color: #000;
 					
 				}
 			}
@@ -238,7 +240,7 @@ header.banner {
 					a {
 						color: #fff;
 						&:hover {
-							color: $main_blue;
+							color: #fff;
 						}
 					}
 					&:first-child {

@@ -31,14 +31,16 @@ a {
 }
 
 h1 {
-	color: #000;
+	color: $main_purple;
 	font-family: $minion;
 	font-size: 36px;
+	font-style: italic;
 }
 
 h2 {
 	color: #000;
 	font-family: $minion;
+	font-style: italic;
 	margin-top: 30px;
 	margin-bottom: 15px;
 }
@@ -46,6 +48,7 @@ h2 {
 h3 {
 	color: #000;
 	font-family: $minion;
+	font-style: italic;
 	font-size: 25px;
 }
 
@@ -53,6 +56,7 @@ h4 {
 	font-family: $minion;
 	color: #000;
 	font-family: 22px;
+	font-style: italic;
 	font-weight: bold;
 }
 
@@ -60,6 +64,7 @@ h5 {
 	font-family: $minion;
 	color: #000;
 	font-size: 20px;
+	font-style: italic;
 	font-weight: bold;
 }
 
@@ -67,6 +72,7 @@ h6 {
 	font-size: 18px;
 	font-weight: bold;
 	font-family: $minion;
+	font-style: italic;
 	color: #000;
 }
 

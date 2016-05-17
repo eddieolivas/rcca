@@ -7,7 +7,7 @@
 }
 
 #rev_slider_1_1_wrapper {
-    .tp-caption, #slide-1-layer-9 {
+    .tp-caption, #slide-1-layer-9{
     	font-family: $minion!important;	
     	font-weight: bold!important;
     }
@@ -16,8 +16,9 @@
     	font-style: italic;
     }
 
-    #slide-1-layer-15 {
+    #slide-1-layer-15, #slide-1-layer-16 {
     	font-family: $adobe_caslon!important;
+    	font-size: 18px!important;
     	line-height: 24px!important;
     	font-weight: normal!important;
     }
@@ -41,7 +42,7 @@
 	background: #fff;
 	color: $main_purple;
 	font-family: $adobe_caslon;
-	padding: 7em 0;
+	padding: 5em 0;
 	.container {
 		margin: auto;
 		position: relative;
@@ -113,7 +114,6 @@
 
     			float: left;
     		img {
-    			width: 100%;
     		}
     	}
     	.section-3-right {
@@ -556,9 +556,10 @@
 }
 
 .page-header + .container .main {
-    padding: 0!important;
+    padding: 0 0 35px 0!important;
     margin-top: 0!important;
     a {
+    	color: #000;
     	text-decoration: underline;
     }
 }
@@ -719,7 +720,7 @@
 	}
 }
 .contact-home-note {
-	font-family: $lft-etica;
+	font-family: $adobe_caslon;
 	font-size: 1.4em;
 	font-style: italic;
 	margin-top: 0;
@@ -837,9 +838,22 @@
 
 @media (max-width: 1381px) {
 	#section-2 {
-		.row {
-			.section-2-content-right {
-				padding: 3% 3% 0 3%;
+		padding-top: 1em;
+		.container {
+			.section-2-left {
+				float: none;
+				margin: auto;
+			}
+			.section-2-right {
+				max-width: 500px;
+				float: none;
+				clear: both;
+				margin: 35px auto;
+				position: relative;
+				right: inherit;
+				top: inherit;
+				transform: translateY(0);
+				-webkit-transform: translateY(0);
 				p {
 					font-size: 1em;
 				}
@@ -893,23 +907,20 @@
 		}
 	}
 	#section-3 {
-	    .row {
-	    	.section-3-right {
+		padding-top: 3em;
+	    .container {
+	    	.section-3-left {
 	    		margin: 35px auto;
 	    		img {
 	    			width: auto;
 	    		}
 	    	}
-	    	.section-3-left {
+	    	.section-3-right {
 	    		font-size: 18px;
-				padding: 8% 4% 0 4%;
+				padding: 1% 4% 0 4%;
 				position: relative;
 				transform: none;
 				line-height: 28px;
-				h2 {
-	    			color: $main_blue;
-	    			font-family: $bree;
-	    		}
 	    		button {
 	    			display: block;
 	    			margin: auto;
@@ -1128,64 +1139,72 @@
 	#section-6{
 		padding: 0;
 	}
+
+	#slide-1-layer-15 {
+		display: none;
+	}
 }
 
 @media (max-width: 600px) {
-	@media (max-width: 860px) {
-		div#slide-1-layer-13 {
-			padding: 5px!important;
-			width: 110%;
-		    font-size: 14px!important;
-		    text-align: center;
-		}
-		#section-2 {
-			.row {
-				.section-2-baby-left {
-					padding-top: 0;
-				}
-			}
-		}
-		#section-3 {
-		    .row {
-		    	.section-3-right {
-		    		margin: 35px auto 0 auto;
-		    	}
-		    }
-		}
-		#section-5 {
-			.row {
-				.section-5-left {
-					.section-5-buttons {
-						button {
-							width: 205px;
-							margin-bottom: 20px;
-						}
-					}
-				}
-				.section-5-right {
-					margin: 0;
-				}
-			}
-		}
-		#section-6 {
-			.container {
-				.section-6-right {
-					.item-1, .item-2 {
-						float: none;
-						clear: both;
-						margin: auto;
-					}
-					.item-2 {
-						margin: 35px 0;
+	div#slide-1-layer-13 {
+		padding: 5px!important;
+		width: 110%;
+	    font-size: 14px!important;
+	    text-align: center;
+	}
+	#section-2 {
+		.container {
+			.section-2-right {
+				.right-inner {
+					.left-list, .right-list {
+						float: none!important;
+						margin: auto!important;
+						width: 50%;
 					}
 				}
 			}
 		}
-		#section-7 {
-			.row {
-				.section-7-left {
-					margin-top: 0;
+	}
+	#section-3 {
+	    .row {
+	    	.section-3-right {
+	    		margin: 35px auto 0 auto;
+	    	}
+	    }
+	}
+	#section-5 {
+		.row {
+			.section-5-left {
+				.section-5-buttons {
+					button {
+						width: 205px;
+						margin-bottom: 20px;
+					}
 				}
+			}
+			.section-5-right {
+				margin: 0;
+			}
+		}
+	}
+	#section-6 {
+		.container {
+			.section-6-right {
+				.item-1, .item-2 {
+					float: none;
+					clear: both;
+					margin: auto;
+				}
+				.item-2 {
+					margin: 35px 0;
+				}
+			}
+		}
+	}
+	#section-7 {
+		.row {
+			.section-7-left {
+				margin-top: 0;
 			}
 		}
 	}
