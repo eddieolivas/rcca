@@ -26,7 +26,7 @@ use Roots\Sage\Wrapper;
             $thumb_url_array = wp_get_attachment_image_src($thumb_id, 'thumbnail-size', true);
             $thumb_url = $thumb_url_array[0];
             if($thumb_url.length == 0) {
-              $thumb_url = '/kfg/wp-content/themes/kfs/dist/images/page-header.jpg';
+              $thumb_url = '/rcca/wp-content/themes/rcca/dist/images/page_header.jpg';
             }
             $title = get_the_title();
             if(is_front_page() || is_home()) {
