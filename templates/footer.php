@@ -1,45 +1,44 @@
 <footer class="content-info">
-	<div class="footer-divider">
-		<img src="/kfg/wp-content/themes/kfs/dist/images/footer-divider.jpg" />
+	<div class="container">
+		<div class="col-lg-12"><h2>Locations</h2></div>
+		<div class="col-lg-3">
+			<span class="location-title">East Brunswick</span>
+			<p>Brier Hill Court, Building J2<br>
+			East Brunswick, NJ 08816<br>
+			Phone: (732) 390-7750<br>
+			Fax: (732) 390-7725
+			</p>
+		</div>
+		<div class="col-lg-3">
+			<span class="location-title">Somerset</span>
+			<p>454 Elizabeth Avenue<br>
+			Suite 240<br>
+			Somerset, NJ 08873<br>
+			Phone: (732) 390-7750<br>
+			Fax: (732) 390-7725
+			</p>
+		</div>
+		<div class="col-lg-3">
+			<span class="location-title">Edison</span>
+			<p>34-36 Progress Street<br>
+			Suite B-2<br>
+			Edison, NJ 08820<br>
+			Phone: (908) 757-9696<br>
+			Fax: (908) 757-9721
+			</p>
+		</div>
+		<div class="col-lg-3">
+			<span class="location-title">Somerville</span>
+			<p>Steeplechase Cancer Center<br>
+			30 Rehill Avenue<br>
+			Somerville, NJ 08876<br>
+			Phone: (908) 927-8700<br>
+			Fax: (908) 927-8706
+			</p>
+		</div>
 	</div>
-	<div class="col-lg-5 col-md-12 col-sm-12">
-		<div class="footer-call">
-			To Request an Appointment<br>
-			<strong>Call (718) 340-3611</strong>
-		</div>
-		<div class="footer-logo">
-			<img src="/kfg/wp-content/themes/kfs/dist/images/kfg-footer-logo.png" />
-		</div><br>
-		<div class="footer-copyright">
-			©<?php echo date('Y'); ?> Kofinas Fertility Group. All rights reserved.
-		</div>
-	</div>
-	<div class="col-lg-7 col-md-12 col-sm-12">
-		<div class="footer-locations">
-			<h2>Locations</h2>
-			<div class="footer-location">
-				506 6th Street<br>
-				Brooklyn, NY 11215<br>
-				Inside New York Methodist<br>
-				Hospital, 4th Floor<br>
-				Phone: 718-243-1600<br>
-				<a href="#">Google Maps</a>
-			</div>
-			<div class="footer-location">
-				4855 Hylan Blvd.<br>
-				Staten Island, NY 10312<br>
-				Phone: 718-356-4000<br>
-				<a href="#">Google Maps</a>
-			</div>
-			<div class="footer-location">
-				55 Central Park West<br>
-				New York, NY 10023<br>
-				Phone: 000-000-00000<br>
-				<a href="#">Google Maps</a>
-			</div>
-		</div>
-		<div class="footer-nav">
-			<h2>Navigation</h2>
+
+	<div class="footer-nav">
 			<?php
 			if (has_nav_menu('footer_navigation')) :
 				wp_nav_menu(['theme_location' => 'footer_navigation', 'menu_class' => 'footer-nav']);
@@ -52,6 +51,12 @@
 				<a id="youtube" href="#" title="Visit our Youtube channel">Youtube</a>
 				<a id="googleplus" href="#" title="Connect with us on Google+" target="_blank">Google+</a><a id="linkedin" href="#" title="Find us on LinkedIn" target="_blank">LinkedIn</a>
 			</div>
+		</div>
+	</div>
+
+	<div class="footer-bottom">
+		<div class="container">
+			
 		</div>
 	</div>
 </footer>
