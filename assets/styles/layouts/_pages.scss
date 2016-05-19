@@ -313,7 +313,7 @@
     padding: 8em 0;
     .container {
     	position: relative;
-    	.section-3-left {
+    	.section-7-left {
     		padding: 0;
 
     			float: left;
@@ -321,7 +321,7 @@
     			width: 100%;
     		}
     	}
-    	.section-3-right {
+    	.section-7-right {
     		font-size: 18px;
 			line-height: 28px;
 			padding: 0 3%;
@@ -349,6 +349,7 @@
 	padding: 8em 0;
 	.container {
 		.col-lg-7 {
+				float: left;
 				padding: 0;
 			div {
 				h2 {
@@ -368,6 +369,7 @@
 			}
 		}
 		.col-lg-5 {
+			float: right;
 			p.sec-8-quote, .quote-author {
 				color: $main-purple;
 				font-size: 24px;
@@ -402,7 +404,6 @@
 	background: #f3eaf1;
 	height: 100%;
 	padding: 4em 0;
-	max-height: 555px;
 	h2 {
 		color: $main-purple;
 		font-family: $minion;
@@ -890,6 +891,14 @@
 }
 
 @media (max-width: 1200px) {
+	.main {
+		button {
+			display: block!important;
+			float: none!important;
+			margin: auto!important;
+		}
+	}
+	
 	#section-2 {
 		padding-bottom: 20px;
 		.row {
@@ -910,6 +919,7 @@
 		padding-top: 3em;
 	    .container {
 	    	.section-3-left {
+	    		float: none;
 	    		margin: 35px auto;
 	    		img {
 	    			width: auto;
@@ -929,14 +939,24 @@
 	    }
 	}
 	#section-4 {
-		.container {
-			.col-lg-5 {
-				margin-bottom: 20px;
-			}
-			button {
+		.row {
+			.section-4-left {
+				position: relative;
 				float: none;
+				right: auto;
+				top: auto;
+				transform: none;
 				display: block;
-				margin: auto;
+				margin: 0 auto 35px auto;
+				width: 95%;
+			}
+			.section-4-right {
+				float: none;
+				img {
+					float: none;
+					margin-bottom: 35px;
+					max-width: 626px;
+				}
 			}
 		}
 	}
@@ -965,13 +985,7 @@
 		}
 	}
 	#section-7 {
-		.row {
-			.btn {
-				float: none;
-				display: block;
-				margin-left: auto;
-				margin-right: auto;
-			}
+		.container {
 			.section-7-left {
 				float: none;
 				img {
@@ -985,7 +999,40 @@
 				img {
 					margin: 2.5em auto;
 				}
+				button {
+					display: block;
+					float: none;
+					margin: auto;
+				}
 			}
+		}
+	}
+	#section-8 {
+		.container {
+			.col-lg-5 {
+				p.sec-8-quote {
+					&:before {
+						margin-bottom: -145px;
+					}
+				}
+			}
+			.col-lg-7 {
+				button {
+					float: none;
+					display: block;
+					margin: auto;
+				}
+			}
+		}
+	}
+	#section-9 {
+		.section-9-left {
+			img {
+				margin-bottom: 35px;
+			}
+		}
+		button {
+			margin: auto;
 		}
 	}
 	.contact-us-location {
@@ -1019,7 +1066,7 @@
 			}
 		}
 	}
-	#section-8 {
+	#section-10 {
 		/* Home page contact form style ------------------------------*/
 		#gform_wrapper_1 {
 
@@ -1106,8 +1153,14 @@
 	}
 }
 
+@media (max-width: 892px) {
+	#slide-1-layer-15 {
+		display: none!important;
+	}
+}
+
 @media (max-width: 860px) {
-	div#slide-1-layer-13 {
+	#slide-1-layer-13 {
 	    width: 215px;
 	    font-size: 14px!important;
 	}
@@ -1190,10 +1243,12 @@
 	#section-6 {
 		.container {
 			.section-6-right {
-				.item-1, .item-2 {
-					float: none;
+				padding-bottom: 35px;
+				.left-list, .right-list {
+					float: none!important;
 					clear: both;
 					margin: auto;
+					width: 95%!important;
 				}
 				.item-2 {
 					margin: 35px 0;
@@ -1207,6 +1262,26 @@
 				margin-top: 0;
 			}
 		}
+	}
+	#section-8 {
+		.container {
+			.col-lg-5 {
+				p.sec-8-quote {
+					&:before {
+						font-size: 35px;
+						margin-bottom: 0;
+						margin-top: 0;
+					}
+				}
+				.quote-author {
+					margin-bottom: 35px;
+				}
+			}
+		}
+	}
+	#section-10 {
+		background: none;
+		padding-top: 3em;
 	}
 }
 

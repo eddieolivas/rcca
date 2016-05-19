@@ -56,6 +56,9 @@
 
 <section id="section-4">
 	<div class="row">
+		<div class="section-4-right col-lg-5 col-md-12 text-center">
+			<img src="/rcca/wp-content/themes/rcca/dist/images/sec-4-pic.jpg" />
+		</div>
 		<div class="section-4-left col-lg-7 col-md-12">
 			<h2>Leading the way in individualized and effective cancer care for Central New Jersey.</h2>
 			<p>At RCCA-CJD, our goal is simple: to direct your life in a healthy, positive direction so you can prevail against cancer or blood-related diseases. With that in mind, we strive to be leaders in providing the Central Jersey community we live and work in with advanced, appropriate and effective care.</p>
@@ -64,9 +67,6 @@
 			<div class="section-4-buttons">
 				<a href="?page_id=939"><button class="btn btn-primary">Learn More About RCCA-CJD</button></a>
 			</div>
-		</div>
-		<div class="section-4-right col-lg-5 col-md-12 text-center">
-			<img src="/rcca/wp-content/themes/rcca/dist/images/sec-4-pic.jpg" />
 		</div>
 	</div>
 </section>
@@ -119,10 +119,10 @@
 
 <section id="section-7">
 	<div class="container">	
-		<div class="col-lg-5 col-md-12 text-center section-3-left">
+		<div class="col-lg-5 col-md-12 text-center section-7-left">
 			<img src="/rcca/wp-content/themes/rcca/dist/images/sec-7-doc.jpg" />
 		</div>
-		<div class="col-lg-7 section-3-right">
+		<div class="col-lg-7 section-7-right">
 			<h2>Maximizing convenience, accuracy and safety with on-site pharmacy services.</h2>
 			<p>Many medications could be involved in your care, and they need to be exactly right to ensure your safety and maximize the effectiveness of your treatment. That’s why our experienced, highly credentialed oncology pharmacist reviews all treatment plans and oversees the administration of all medicines. It’s also why our pharmacy is involved in all aspects of our care, from protocols to patient counseling to clinical research. And it’s the reason — along with convenience — why we dispense medications right in our office pharmacies, which are staffed by caring, certified oncology-pharmacy technicians.</p>
 			<a href="?page_id=956"><button class="btn btn-primary">Learn More About Our In House Pharmacy</button></a>
@@ -132,29 +132,29 @@
 
 <section id="section-8">
 	<div class="container">
-		<div class="col-lg-7">
-			<div>
-				<h2>Providing an environment and experience marked by caring and support.</h2>
-				<p>At RCCA’s Central Jersey Division, we’re oriented around your needs. We work on your behalf, striving to develop the best individualized treatment for you, and going the extra mile to provide you with the best possible patient experience. Our doctors, physician assistants, nurse practitioners, nurses and staff treat you with honesty and compassion, giving you the guidance and support you need and helping you make informed decisions. As your neighbors here in Central Jersey, we’re committed to making a difference in your care and in your life. </p>
-				<button class="btn btn-primary">Read what patients say about their experience at RCCA-CJD</button>
-			</div>
-		</div>
-		<div class="col-lg-5 col-md-12">
+	<div class="col-lg-5 col-md-12">
 			<p class="sec-8-quote">
 				To all of you beautiful people… thank you for all the comforting and caring treatment you have shown me and for getting me through all of this. You have helped me keep a positive attitude, and I thank you so very much.
 			</p>
 
 				<div class="quote-author">— Doris B.</div>
 		</div>
+		<div class="col-lg-7 col-md-12">
+			<div>
+				<h2>Providing an environment and experience marked by caring and support.</h2>
+				<p>At RCCA’s Central Jersey Division, we’re oriented around your needs. We work on your behalf, striving to develop the best individualized treatment for you, and going the extra mile to provide you with the best possible patient experience. Our doctors, physician assistants, nurse practitioners, nurses and staff treat you with honesty and compassion, giving you the guidance and support you need and helping you make informed decisions. As your neighbors here in Central Jersey, we’re committed to making a difference in your care and in your life. </p>
+				<button class="btn btn-primary">Read what patients say about their experience at RCCA-CJD</button>
+			</div>
+		</div>
 	</div>
 </section>
 
 <section id="section-9">
 	<div class="container">	
-		<div class="col-lg-5 col-md-12 text-center section-3-left">
+		<div class="col-lg-5 col-md-12 text-center section-9-left">
 			<img src="/rcca/wp-content/themes/rcca/dist/images/sec-9-pic.jpg" />
 		</div>
-		<div class="col-lg-7 section-3-right">
+		<div class="col-lg-7 section-9-right">
 			<h2>Comprehensive hematology care from the leading edge of the discipline.</h2>
 			<p>Blood disorders can be scary. And whether malignant or not, they can affect many aspects of life. With experience, advanced training and board-certified knowledge and skill, RCCA-CJD’s oncology-hematology specialists provide complete hematology care from the forefront of the discipline. We even have QOPI® certification that attests to our adherence to the highest standards of quality and safety. Our doctors, physician assistants and nurse practitioners have extensive knowledge of blood and bone-marrow disorders, and they combine state-of-the-art diagnostics with comprehensive treatments to help you live a fulfilling, happy and productive life. </p>
 			<a href="?page_id=956"><button class="btn btn-primary">Find out more about our hematology care</button></a>
