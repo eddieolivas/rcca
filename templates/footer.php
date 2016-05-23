@@ -49,15 +49,17 @@
 	</div>
 
 	<div id="footer-bottom">
-		<div class="container bottom-container">
-			© <?php echo date('Y'); ?>  Regional Cancer Care Associates, LLC–Central Jersey Division. All rights reserved. 
+		<div class="container bottom-container"> 
 			<div id="find-us-online">
 				<div id="footer-social">
-					<a id="facebook" href="#" title="Connect with us on Facebook" target="_blank">Facebook</a> <a id="twitter" href="#" title="Follow us on Twitter" target="_blank">Twitter</a>
-					<a id="youtube" href="#" title="Visit our Youtube channel">Youtube</a>
+					<a id="facebook" href="https://www.facebook.com/cjoncology/?fref=ts" title="Connect with us on Facebook" target="_blank">Facebook</a> <a id="twitter" href="https://twitter.com/CJ_Oncology" title="Follow us on Twitter" target="_blank">Twitter</a>
+					<a id="youtube" href="#" title="Visit our Youtube channel" target="_blank">Youtube</a>
 					<a id="googleplus" href="#" title="Connect with us on Google+" target="_blank">Google+</a><a id="linkedin" href="#" title="Find us on LinkedIn" target="_blank">LinkedIn</a>
 				</div>
 			</div>
+			<p class="copyright">
+				© <?php echo date('Y'); ?>  Regional Cancer Care Associates, LLC–Central Jersey Division. All rights reserved.
+			</p>
 		</div>
 	</div>
 </footer>

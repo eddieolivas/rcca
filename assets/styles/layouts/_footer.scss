@@ -164,14 +164,23 @@ a {
 }
 
 @media (max-width: 767px) {
-	footer {
-		.col-lg-7 {
-			&:after {
-				content: '';
-				display: block;
-				clear: both;
+	#footer-bottom {
+		.container {
+			#find-us-online {
+				float: none!important;
+				text-align: center;
+				width: 100%;
+				&:after {
+					display: block;
+					content: '';
+					clear: both;
+				}
+				#footer-social {
+					float: none!important;
+					margin-bottom: 15px;
+				}
 			}
-		}
+		}		
 	}
 }
 

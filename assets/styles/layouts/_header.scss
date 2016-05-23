@@ -62,6 +62,24 @@ header.banner {
 		#nav-container {
 			max-width: 1170px;
 		}
+		.sub-menu-columns ul.sub-menu li {
+		    display: inline-block;
+		    float: left;
+		    width: 250px;
+		}
+		.sub-menu-columns ul.sub-menu li:nth-child(odd) {
+		    float: left;
+		    margin-right: 10px;
+		}
+		.sub-menu-columns ul.sub-menu li:nth-child(even) {
+		    float: right;
+		}
+
+		.nav > li#menu-item-961 {
+			ul {
+				width: 550px;
+			}
+		}
 
 		.nav > li {
 			float: left;
@@ -87,13 +105,14 @@ header.banner {
 				padding: 0 0 5px 0;
     			position: absolute;
     			z-index:999;
-   				top: 42px;
+   				top: 51px;
+   				width: 250px;
    				li {
    					border-bottom: 1px solid $main_blue;
    					float: none;
    					list-style: none;
    					padding: 0;
-   					width: 315px;
+   					//width: 315px;
    					ul {
 						background: $light_blue;
 						display: none; 
@@ -193,6 +212,9 @@ header.banner {
 				.header-right {
 					float: none;
 					text-align: center;
+					overflow: visible;
+					padding: 0;
+					width: 100%;
 					form.search-form {
 						margin: auto;
 						max-width: 200px;

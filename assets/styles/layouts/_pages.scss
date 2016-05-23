@@ -93,6 +93,7 @@
 				}
 				ul.right-list {
 					float: right;
+					padding-left: 0;
 				}
 				&:after {
 					content: '';
@@ -431,7 +432,7 @@
 		label {
 			display: none;
 		}
-		#field_1_5, #field_1_2, #field_1_3, #field_1_4, #field_1_7 {
+		#field_1_5, #field_1_2, #field_1_3, #field_1_4 {
 			clear: left;
 			float: left;
 			width: 100%;
@@ -467,17 +468,38 @@
 
 		#field_1_7 {
 			background-color: #e7d6e3;
-			padding: 5px;
+			clear: left;
+			float: left;
+			width: 100%;
+			margin-bottom: 20px;
+			max-width: 460px;
+			padding: 0 15px;
+			input[type="radio"] {
+				float: left;
+				margin-top: 10px;
+			}
 			label {
 				color: #000;
 				display: block!important;
 				font-family: $adobe_caslon;
 				font-weight: 300;
 				float: left;
-				width: 53%;
+				margin: 0;
+				width: 63%;
+			}
+			.gfield_label {
+				line-height: 2;
 			}
 			.gchoice_1_7_0, .gchoice_1_7_1 {
 				float: left;
+				margin: 0;
+				width: 75px;
+				label {
+					margin: 5px 0 0 7px;
+				}
+			}
+			.ginput_container.ginput_container_radio {
+				margin: 0;
 			}
 		}
 		input[type="text"], textarea, input.datepicker {
@@ -492,7 +514,7 @@
 			top: 0;
 			right: 0;
 			height: 100%;
-			max-height: 288px;
+			max-height: 256px;
 			padding-left: 0.45em;
 		}
 
@@ -596,7 +618,7 @@
     width:100%;
     padding:15px;
     display:inline-block;
-    background:$dark_blue;
+    background:$main-blue;
     text-decoration: none!important;
     transition:all linear 0.15s;
     /* Type */
@@ -605,7 +627,7 @@
 }
  
 .accordion-section-title.active, .accordion-section-title:hover {
-    background:$dark_blue;
+    background:$light_blue;
     /* Type */
     text-decoration:none;
 }
@@ -704,9 +726,9 @@
 
 	#gform_submit_button_2 {
 		background: #fff;
-		border: 2px solid $main_red;
-		color: $main_red;
-		font-family: $bree;
+		border: 2px solid $main-purple;
+		color: $main-purple;
+		font-family: $adobe_caslon;
 		font-size: 1.4em;
 		font-weight: 500;
 		margin: auto;
@@ -715,7 +737,7 @@
 		max-width: 345px;
 		width: 100%;
 		&:hover {
-			background: $main_red;
+			background: $main-purple;
 			color: #fff;
 		}
 	}
@@ -835,6 +857,46 @@
 	font-size: 1.4em;
 	font-style: italic;
 	margin-top: 0;
+}
+.testimonial {
+    background: #eee;
+    padding: 15px;
+    margin-bottom: 35px;
+    font-style: italic;
+    .author {
+    	text-align: right;
+    }
+}
+.testimonial:before {
+    color: $main-blue;
+    content: '“';
+    font-size: 60px;
+    float: left;
+    margin-top: -20px;
+    margin-right: 10px;
+    height: 40px;
+}
+
+table {
+	tr {
+		td {
+			border: 1px solid black;
+			padding: 10px;
+		}
+	}
+}
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 @media (max-width: 1381px) {
@@ -1086,6 +1148,12 @@
 				float: none;
 			}
 
+			#field_1_7 {
+				.gchoice_1_7_0, .gchoice_1_7_1 {
+					width: 60px;
+				}
+			} 
+
 			textarea {
 				float: none;
 				position: relative;
@@ -1151,6 +1219,9 @@
 			width: 100%;
 		}
 	}
+	#gform_submit_button_2 {
+		font-size: 14px!important;
+	}
 }
 
 @media (max-width: 892px) {
@@ -1212,7 +1283,8 @@
 					.left-list, .right-list {
 						float: none!important;
 						margin: auto!important;
-						width: 50%;
+						padding-left: 0;
+						width: 90%;
 					}
 				}
 			}
